@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import FormElement from "./FormElement";
-import { ContactPicker } from "../contactPicker/ContactPicker";
+import { ContactPicker } from "./ContactPicker";
 
 const getTodayString = () => {
   const [month, day, year] = new Date()
